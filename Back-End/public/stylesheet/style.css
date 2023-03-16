@@ -1,0 +1,83 @@
+body {
+  padding: 0%;
+  margin: 0%;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+header {
+  padding: 1.5% !important;
+  padding-left: 50px;
+  width: 100%;
+  background: rgb(232, 67, 17);
+  color: white;
+  font-size: 18px;
+}
+
+.body-container {
+  padding: 60px;  
+}
+
+img {
+  width: 100%;
+}
+
+.oos {
+  background: red;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(232, 67, 17);
+  color: white;
+  text-align: center;
+  padding: 1%;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+table {
+  display: block;
+  overflow-x: auto;
+}
+
+.nav-item a:hover {
+  /* background-color: rgb(155, 150, 150); */
+  color: black;
+}
+
+.nav-item a:active {
+  background-color: #eaad83;
+  color: black;
+}
+
+.nav-item a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#register-btn, #login-btn, .find-btn {
+  background-color: rgb(232, 67, 17);
+}
+
+#register-btn:hover, #login-btn:hover, .find-btn:hover{
+  background-color: rgb(225, 134, 106);
+  transition: 0.7s;
+}
+
+/* .btn a:hover{
+  background-color: rgb(232, 67, 17);
+} */
