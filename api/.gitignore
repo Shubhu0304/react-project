@@ -1,7 +1,0 @@
-node_modules/
-lib
-session
-test.ts
-test.js
-.npmignore
-.DS_Store
